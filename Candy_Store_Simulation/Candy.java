@@ -1,5 +1,9 @@
 package a.b;
 
-public interface Candy {
-    void produce();
+public abstract class Candy {
+    public abstract void produce();
+
+    public void pack() {
+        System.out.println("Packing candy...");
+    }
 }

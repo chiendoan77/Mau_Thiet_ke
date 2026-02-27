@@ -1,7 +1,7 @@
 package a.b;
 
-public class Chocolate implements Candy {
+public class Chocolate extends Candy {
     public void produce() {
-        System.out.println("Producing Chocolate...");
+        System.out.println("Making chocolate...");
     }
 }
